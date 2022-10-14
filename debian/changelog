@@ -1,0 +1,47 @@
+node-repeat-string (1.6.1+repack-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper from old 12 to 13.
+  * Update pattern for GitHub archive URLs from /<org>/<repo>/tags
+    page/<org>/<repo>/archive/<tag> -> /<org>/<repo>/archive/refs/tags/<tag>
+  * Declare compliance with policy 4.6.0
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Use dh-sequence-nodejs auto install
+  * Repack to include test files (were excluded)
+  * Enable upstream test using mocha
+
+ -- Yadd <yadd@debian.org>  Mon, 11 Oct 2021 22:21:04 +0200
+
+node-repeat-string (1.6.1-2) unstable; urgency=medium
+
+  * Bump debhelper from old 10 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Apply multi-arch hints.
+    + node-repeat-string: Add Multi-Arch: foreign.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Sun, 29 Aug 2021 01:37:19 +0100
+
+node-repeat-string (1.6.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * Update packaging:
+    - Update d/watch (version 4, direct upstream github)
+    - Use https in d/copyright's Format
+    - Bump dh compat to 10
+    - Clean d/rules
+    - Move to section javascript
+    - Bump std-ver to 4.1.1
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Sat, 25 Nov 2017 17:18:11 +0100
+
+node-repeat-string (1.5.4-1) unstable; urgency=low
+
+  * Initial release (Closes: #840932)
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 16 Oct 2016 15:51:02 +0530

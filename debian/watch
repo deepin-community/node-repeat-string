@@ -1,0 +1,2 @@
+version=4
+https://github.com/jonschlinkert/repeat-string/tags .*/archive/(?:.*/)?v?([\d\.]+).tar.gz
